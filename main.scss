@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    background-color: azure;
+    section{
+        margin-bottom: 600px;
+        .login-card{
+            box-shadow: 4px 5px 4px #888888;
+            border: 0.5px solid #888888;
+            .card-body{
+                h3{
+                    color: #209BC2;
+                    font-family: 'Acme', sans-serif;;
+                }
+            }
+        }
+    }
+
+    .custom-shape-divider-bottom-1628784513 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-bottom-1628784513 svg {
+        position: relative;
+        display: block;
+        width: calc(198% + 1.3px);
+        height: 138px;
+    }
+    
+    .custom-shape-divider-bottom-1628784513 .shape-fill {
+        fill: #209BC2;
+    }
+}
